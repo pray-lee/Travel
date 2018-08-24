@@ -43,6 +43,8 @@
 		},
 		methods: {
 			handleCityClick(city) {
+			  alert(1)
+			  alert(city)
 				// this.$store.dispatch('changeCity', city)
 				// this.$store.commit('changeCity', city)
 				this.changeCity(city)
@@ -79,7 +81,7 @@
 	.title
 		line-height: .54rem
 		background: #eee
-		padding-left: .26rem		
+		padding-left: .26rem
 		color: #666
 	.button-list
 		overflow: hidden
@@ -92,7 +94,7 @@
 				padding: .1rem 0
 				margin: .1rem
 				border: .02rem solid #ccc
-				border-radius: .06rem			
+				border-radius: .06rem
 	.item-list
 		.item
 			line-height: .76rem

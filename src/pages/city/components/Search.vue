@@ -46,7 +46,7 @@
 				}
 				if(!this.keyword){
 					this.list = []
-					return 
+					return
 				}
 				this.timer = setTimeout(() => {
 					const result = []
@@ -58,7 +58,7 @@
 						})
 					}
 					this.list = result
-				}, 100) 
+				}, 100)
 			}
 		},
 		mounted() {
